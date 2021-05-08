@@ -77,10 +77,31 @@ main {
     border-radius: 1rem;
 }
 
+.dashboard .user {
+    padding: 2rem;
+}
+
+
+/* .dashboard .user:hover img {
+    border-radius: 50%;
+    transform: translateY(-2px) translateZ(0);
+    box-shadow: 6px 6px 10px rgba(7, 159, 247, 0.6);
+} */
+
+.dashboard .user h3:hover {
+    text-decoration: underline;
+}
+
 .link {
     display: flex;
-    margin: 1rem 1rem;
+    padding: 1rem 1rem;
     align-items: center;
+}
+
+.link:hover {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    transform: translateY(-5px) scale(1.01) translateZ(0);
+    border-radius: 1rem;
 }
 
 .link h2 {
@@ -93,6 +114,11 @@ main {
     color: white;
     padding: 1rem;
     margin: 2rem;
+}
+
+.pro:hover {
+    transform: translateY(-5px) scale(1.01) translateZ(0);
+    box-shadow: 4px 4px 10px rgba(7, 159, 247, 0.3);
 }
 
 .pro h2 {
@@ -130,4 +156,17 @@ main {
     margin: 1rem 0rem;
     padding: 1rem;
     box-shadow: 6px 6px 20px rgb(122, 122, 122, 0.8);
+}
+
+.card:hover {
+    box-shadow: 6px 6px 50px rgb(122, 122, 122, 1);
+    transform: translateY(-5px) scale(1.01) translateZ(0);
+}
+
+.card .card-info {
+    padding: 1rem;
+}
+
+.card .percentage {
+    color: rgb(0, 162, 255);
 }
